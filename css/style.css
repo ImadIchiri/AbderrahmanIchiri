@@ -99,6 +99,7 @@ header nav button:last-of-type {
 
 section {
   width: 100%;
+  padding: 2rem 1rem;
 }
 
 section h1 {
@@ -112,9 +113,10 @@ section h1 {
 }
 
 section .container {
-  background-color: #fff;
+  border: 12px solid #d39648;
+  border-radius: 25px;
+  background-color: #004424;
   padding: 2rem;
-  border-radius: 5px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -143,4 +145,8 @@ section .container .letter {
   justify-content: center;
   align-items: baseline;
   cursor: pointer;
+}
+
+section .container .letter span {
+  line-height: 1.3;
 }

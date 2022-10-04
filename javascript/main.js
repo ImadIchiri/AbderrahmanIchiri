@@ -21,7 +21,9 @@ lettersAr.forEach((letter, index) => {
   arMainContainer.append(
     createElement(
       `
-        <div class='letter' data-number='${index + 1}'>${letter}</div>
+        <div class='letter' data-number='${index + 1}'>
+          <span>${letter}</span>
+        </div>
     `,
       "ar"
     )

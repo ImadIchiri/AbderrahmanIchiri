@@ -5,15 +5,18 @@ const arMainContainer = document.querySelector("main#ar");
 const frMainContainer = document.querySelector("main#fr");
 const arBtn = document.getElementById("arBtn");
 const frBtn = document.getElementById("frBtn");
+const lettersTitle = document.getElementById("letters_title");
 
 arBtn.addEventListener("click", () => {
   arMainContainer.style.display = "flex";
   frMainContainer.style.display = "none";
+  lettersTitle.textContent = "حروف اللغة العربية";
 });
 
 frBtn.addEventListener("click", () => {
   arMainContainer.style.display = "none";
   frMainContainer.style.display = "flex";
+  lettersTitle.textContent = "حروف اللغة الفرنسية";
 });
 
 // Append Arabic Letters

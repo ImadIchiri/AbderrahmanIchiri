@@ -37,7 +37,6 @@ body {
 
 header {
   width: 100%;
-  margin-top: 0.5rem;
 }
 
 header .container {
@@ -45,8 +44,8 @@ header .container {
   justify-content: space-between;
   align-items: center;
   background-color: #fff;
-  border-radius: 5px;
-  padding: 1rem 0.8rem;
+  border-radius: 0 0 5px 5px;
+  padding: 1.5rem 0.8rem;
 }
 
 header .logo {
